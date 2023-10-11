@@ -6,6 +6,9 @@ export default class Stack {
     this.items = {};
   }
 
+  /**
+   * @param {number} element
+   */
   push(element) {
     this.items[this.count] = element;
     this.count++;
